@@ -91,7 +91,7 @@ const MapComponent = ({ facilities, onMarkerClick }) => {
   if (!isMapLoaded) return <div>지도를 불러오는 중...</div>;
 
   return (
-    <div style={{ position: "relative", width: "100%", height: "100vh" }}>
+    <div style={{ position: "relative", width: "100%", height: "100vh", minHeight: "500px" }}>
       {/* 지도 */}
       <div ref={mapContainerRef} id="map" style={{ width: "100%", height: "100%" }}></div>
 

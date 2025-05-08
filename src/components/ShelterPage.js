@@ -17,7 +17,7 @@ const ShelterPage = () => {
       .then((res) => {
         const sheltersWithType = res.data.map((s) => ({
           ...s,
-          type: "대피소소",
+          type: "대피소",
           id: `shelter${s.id}`,
         }));
         setFacilities(sheltersWithType);
