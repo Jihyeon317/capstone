@@ -93,7 +93,7 @@ const MapComponent = ({ facilities, onMarkerClick }) => {
   return (
     <div style={{ position: "relative", width: "100%", height: "100vh", minHeight: "500px" }}>
       {/* 지도 */}
-      <div ref={mapContainerRef} id="map" style={{ width: "100%", height: "100%" }}></div>
+      <div ref={mapContainerRef} id="map" style={{ width: "100%", height: "85%" }}></div>
 
       {/* 범례 - 좌측 상단 */}
       <div
